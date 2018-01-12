@@ -3,7 +3,23 @@
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+					<Image src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+					       densityAware="false" 
+					       activeSrc="https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+					       alt="satish"
+					       backgroundPosition="initial"
+					       backgroundRepeat="no-repeat"
+					       backgroundSize="cover"
+					       decorative="true"
+					       height="500px"
+					       useMap="Fulcrum"
+					       width="500px"
+					       tap="imageClick"
+					       press="imagePress">
+					</Image>
+
+				</content>
 			</Page>
 		</pages>
 	</App>
